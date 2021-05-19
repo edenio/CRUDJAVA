@@ -54,7 +54,7 @@ public class ProdutoDAO {
      
       public void excluir(Produto produto){
         
-        String sql = "DELETE FRON produto WHERE codigo_produto = "+valor;
+        String sql = "DELETE FROM produto WHERE codigo_produto = "+valor;
         try{
             
             st = conn.createStatement();
